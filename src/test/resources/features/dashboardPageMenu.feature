@@ -1,7 +1,7 @@
 @smoke
 Feature: Dashboard Page Menu
 
-
+ @regression
   Scenario:  User should be able to see dashboard Menu after log in
     Given The user is on the login page
     When The user logs in using "teacher@bootflow.academy" and "Test12345!"

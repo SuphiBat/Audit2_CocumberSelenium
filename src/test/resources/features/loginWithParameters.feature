@@ -7,7 +7,7 @@ Feature: Log in as different user
     When The user logs in using "teacher@bootflow.academy" and "Test12345!"
     Then The user should be able to login
     And The welcome message contains "Teacher2"
-
+  @regression
   Scenario: Log in as student with parameters
     Given The user is on the login page
     When The user logs in using "sdetb2@bootflow.com" and "Test1234"

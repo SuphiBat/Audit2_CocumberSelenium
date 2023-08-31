@@ -18,7 +18,7 @@ Feature: Navigate to menu with parameters
     And The user navigates to "All Posts" menu
     Then The user should be able to see header as "Posts"
 
-
+  @regression
   Scenario: User navigates to Dashboard Page
     #Given The user is on the login page
     When The user logs in using "bootdev@bootflow.academy" and "Dev123"
@@ -26,7 +26,7 @@ Feature: Navigate to menu with parameters
     And The user navigates to "My Account" menu
     Then The user should be able to see header as "Dashboard"
 
-  @smoke
+  @smoke @regression
   Scenario Outline: User navigates to Different menu
     When The user logs in using "<userType>" and "<password>"
     Then The welcome message contains "<name>"

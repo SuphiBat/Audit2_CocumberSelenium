@@ -1,4 +1,4 @@
-@navigation
+@navigation @regression
 Feature:Navigation Menu
 
  @developer

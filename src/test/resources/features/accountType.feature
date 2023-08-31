@@ -19,7 +19,7 @@ Feature: Account Type
     When The user logs in using "bootdev@bootflow.academy" and "Dev123"
     Then The welcome message contains "BootDeveloper1"
 
-
+  @regression
   Scenario Outline: Different User Type
     When The user logs in using "<userType>" and "<password>"
     Then The welcome message contains "<name>"
