@@ -1,3 +1,4 @@
+@smoke
 Feature: Account Type
 
   Background:
